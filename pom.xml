@@ -34,6 +34,7 @@
 		<lombok-version>1.18.34</lombok-version>
 		<cucumber.version>7.19.0</cucumber.version>
 		<junit-version>5.11.1</junit-version>
+		<junit-platform-version>7.0.0</junit-platform-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -92,11 +93,6 @@
 			<version>${junit-version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -113,7 +109,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit-platform-engine</artifactId>
-			<version>7.0.0</version>
+			<version>${junit-platform-version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
