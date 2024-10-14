@@ -1,44 +1,38 @@
 package com.springboot.selenium.testconfig;
 
 import io.cucumber.java.*;
-import org.openqa.selenium.WebDriver;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import java.time.Duration;
 
 public class Hooks {
 
 
-    @Autowired
-    private WebDriver driver;
-
     @BeforeAll
-    public void SetUp(){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    public static void SetUp(){
+
     }
 
     @AfterAll
-    public void tearDown(){
+    public static void tearDown(){
 
     }
 
     @Before
-    public void preSetup(){
+    public void beforeEachTest(){
 
     }
 
     @After
-    public void report(){
+    public void afterEachTest(){
 
     }
 
     @AfterStep
-    public void addInformation(){
+    public void afterEachStep(){
 
     }
 
     @BeforeStep
-    public void addLogs(){
+    public void beforeEachStep(){
 
     }
 }
