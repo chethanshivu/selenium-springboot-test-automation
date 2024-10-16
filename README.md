@@ -7,7 +7,7 @@ Test Framework using springBoot and selenium
    4. Junit 5
    5. Page Object Model
 
-->This Project is integrated with jenkins pipeline
-->Framework supports multiple browser testing - chrome, firefox, edge
+* This Project is integrated with jenkins pipeline
+* Framework supports multiple browser testing - chrome, firefox, edge
 
 
