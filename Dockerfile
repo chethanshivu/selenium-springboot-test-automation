@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8
+FROM selenium/standalone-chrome
 
 RUN mkdir /workdir
 COPY pom.xml /workdir

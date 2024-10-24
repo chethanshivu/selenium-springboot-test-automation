@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>17</java.version>
 		<webdriver.version>5.9.2</webdriver.version>
 		<selenium.version>4.23.1</selenium.version>
 		<sl4j.version>2.0.16</sl4j.version>
